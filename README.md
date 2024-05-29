@@ -13,7 +13,7 @@ Below is an example with the deployment link replaced:
 
 This project includes an analysis of the student performance dataset.
 
-## Setup
+# Setup
 
 To create the environment, run the following commands:
 
