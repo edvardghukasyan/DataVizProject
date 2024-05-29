@@ -20,3 +20,6 @@ def app():
     
     # Display the pair plot
     st.pyplot(pair_plot.fig)
+
+if __name__ == "__main__":
+    app()
