@@ -8,7 +8,7 @@ def app():
     # script_path = os.path.dirname(__file__)
     # file_path = os.path.join(script_path, '../student_data 2.csv')
 
-    # df = pd.read_csv('student_data.csv')
+    df = pd.read_csv('student_data.csv')
     # fig = sns.pairplot(df, hue='G3')
     # st.pyplot(fig)
 
