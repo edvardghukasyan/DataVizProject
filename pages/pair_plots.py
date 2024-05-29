@@ -4,7 +4,7 @@ import seaborn as sns
 import os
 
 def app():
-    # st.title("Pair Plots")
+    st.title("Pair Plots")
     # script_path = os.path.dirname(__file__)
     # file_path = os.path.join(script_path, '../student_data 2.csv')
 
