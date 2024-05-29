@@ -29,3 +29,5 @@ def app():
     plt.title('Correlation Matrix', fontsize=15)
     st.pyplot(fig)
 
+if __name__ == "__main__":
+    app()
