@@ -20,3 +20,6 @@ def app():
 
     fig = px.histogram(df, x='G1', nbins=20, title="Final Grade Distribution (G1)")
     st.plotly_chart(fig)
+
+if __name__ == "__main__":
+    app()
