@@ -5,7 +5,7 @@ import os
 
 
 def app():
-    # st.title("Grades Distribution")
+    st.title("Grades Distribution")
 
     # script_path = os.path.dirname(__file__)
     # file_path = os.path.join(script_path, '../student_data 2.csv')
