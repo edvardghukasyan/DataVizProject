@@ -8,3 +8,9 @@ To create the environment, run the following command:
 
 ```bash
 conda env create -f environment.yml
+
+
+To run dashboard:
+
+```bash
+streamlit run welcome.py --server.port $PORT --server.address 0.0.0.0
