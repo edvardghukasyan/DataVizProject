@@ -10,6 +10,8 @@ To create the environment, run the following command:
 conda env create -f environment.yml
 
 
+
+## Running 
 To run dashboard:
 
 ```bash
