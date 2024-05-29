@@ -7,9 +7,8 @@ def app():
     st.title("Ages and Groups Analysis")
 
     # Load the data
-    base_path = os.path.dirname(__file__)
-    file_path = os.path.abspath(os.path.join(base_path, '..', 'student_data 2.csv'))
-    df = pd.read_csv(file_path)
+    df = pd.read_csv('student_data.csv')
+
 
     # Histogram for age distribution
     fig_age = px.histogram(df, x='age', nbins=20, title="Distribution of Ages")
