@@ -14,3 +14,9 @@ def app():
 
     fig = px.histogram(df, x='G3', nbins=20, title="Final Grade Distribution (G3)")
     st.plotly_chart(fig)
+
+    fig = px.histogram(df, x='G2', nbins=20, title="Final Grade Distribution (G2)")
+    st.plotly_chart(fig)
+
+    fig = px.histogram(df, x='G1', nbins=20, title="Final Grade Distribution (G1)")
+    st.plotly_chart(fig)
