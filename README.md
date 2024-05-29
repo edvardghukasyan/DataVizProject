@@ -5,4 +5,4 @@ This project includes an analysis of the student performance dataset.
 
 ## Link to run
 
-- Follow the link [Link]([link](https://datavizproject-1.onrender.com/))
+- Follow the link [Link](https://datavizproject-1.onrender.com/)
