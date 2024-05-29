@@ -1,27 +1,18 @@
-### Explanation
-
-- **Setup**: Includes steps to create and activate a virtual environment using `venv` and install the required packages using `pip`.
-- **Run the Dashboard**: Provides the command to start the Streamlit application.
-- **Deployment Link**: Placeholder for the deployment link. Replace `#` with the actual URL if available.
-
-### Example
-
-Below is an example with the deployment link replaced:
-
-```markdown
 # ASDS-DataViz
 
 This project includes an analysis of the student performance dataset.
 
-# Setup
+## Setup
 
-To create the environment, run the following commands:
+To create the environment, run the following command:
 
 ```bash
-python -m venv venv
-# On Windows
-venv\Scripts\activate
-# On macOS and Linux
-source venv/bin/activate
+conda env create -f environment.yml
 
-pip install -r requirements.txt
+
+
+## Running 
+To run dashboard:
+
+```bash
+streamlit run welcome.py --server.port $PORT --server.address 0.0.0.0
