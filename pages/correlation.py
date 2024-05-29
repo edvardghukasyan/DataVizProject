@@ -10,7 +10,7 @@ def app():
     # file_path = os.path.join(script_path, '../student_data 2.csv')
 
     df = pd.read_csv('student_data.csv')
-    t.write("Dataframe Preview:", df.head())
+    st.write("Dataframe Preview:", df.head())
     
     # Select only numeric columns for correlation
     numeric_df = df.select_dtypes(include=['number'])
