@@ -20,9 +20,12 @@ def app():
     
     # Compute the correlation matrix
     corr = numeric_df.corr()
-    
+
     # Plot the correlation matrix
-    fig, ax = plt.subplots()
-    sns.heatmap(corr, annot=True, cmap='coolwarm', ax=ax)
-    st.write(fig)
+    fig, ax = plt.subplots(figsize=(12, 10)) 
+    sns.heatmap(corr, annot=True, cmap='coolwarm', ax=ax, fmt=".2f", annot_kws={"size": 8}, cbar_kws={"shrink": 0.75})
+    plt.xticks(rotation=45, ha='right')  
+    plt.yticks(rotation=0)  
+    plt.title('Correlation Matrix', fontsize=15)
+    st.pyplot(fig)
 
